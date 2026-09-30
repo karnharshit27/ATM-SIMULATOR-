@@ -19,12 +19,12 @@ def load_data():
 
         data = {
             "account": {
-                "name": "Harshit Karn",
+                "name": "Shivankur Shrivastava",
                 "account_number": "1234567890",
                 "phone": "9876543210",
-                "email": "harshitkarn@gmail.com",
+                "email": "shiv@gmail.com",
                 "balance": 5000.00,
-                "pin": "1234",
+                "pin": "2002",
                 "locked": False,
                 "transactions": []
             }
