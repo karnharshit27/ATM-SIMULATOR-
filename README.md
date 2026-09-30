@@ -1,7 +1,7 @@
 # ATM-SIMULATOR-
 ATM Simulation System
 
-Overview of the Project
+Overview of the Project:-
 
 The ATM Simulation System is a Python-based console application that simulates the basic operations of an ATM. The program uses a JSON file to store account information, balance, PIN status, and transaction history.
 
@@ -9,7 +9,7 @@ After successful PIN verification, the user can access the ATM menu and perform 
 
 The main Python program handles the ATM operations, while atm_data.json is used for storing the account data and transaction records. The program also includes PIN-attempt control and locks the account after three incorrect PIN attempts.
 
-Features
+Features:-
 
 PIN Login and Verification: The user must enter the correct PIN to access the ATM. The system allows a maximum of three incorrect attempts before locking the account.
 
@@ -29,7 +29,7 @@ Account Locking: The account is automatically locked after three consecutive inc
 
 Data Persistence: Account balance, PIN changes, account status, and transactions are saved in atm_data.json.
 
-Technologies/Tools Used
+Technologies/Tools Used:-
 
 Python: Used as the main programming language for implementing the ATM simulation and its functions.
 
@@ -41,7 +41,7 @@ os module: Used to check whether the JSON data file exists before loading the ac
 
 VS Code / Python Terminal: Can be used to write, edit, and run the project.
 
-Steps to Install & Run the Project
+Steps to Install & Run the Project:-
 
 Install Python on the computer if it is not already installed.
 
@@ -88,5 +88,7 @@ Test Transaction History: Select Transaction History and verify that the recorde
 Test Account Information: Select Account Information and verify that the stored account details are displayed.
 
 Test Change PIN: Select Change PIN, enter the current PIN, provide a new four-digit PIN, confirm it, and verify that the PIN is updated in the JSON data.
+
+END
 
 Test Exit: Select Exit and verify that the program displays the exit message and closes the ATM menu.
