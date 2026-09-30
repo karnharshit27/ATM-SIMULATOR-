@@ -1,17 +1,22 @@
 {
     "account": {
-        "name": "Shivankur Shrivastava",
+        "name": "Harshit Karn",
         "account_number": "1234567890",
-        "phone": "+91 9876543210",
-        "email": "shiv@gmail.com",
-        "balance": 55000.0,
-        "pin": "2002",
+        "phone": "9876543210",
+        "email": "harshitkarn@gmail.com",
+        "balance": 0.0,
+        "pin": "1234",
         "locked": false,
         "transactions": [
             {
                 "type": "Deposit",
-                "amount": 50000.0,
-                "date": "23-09-2026 00:03:49"
+                "amount": 5000.0,
+                "date": "30-09-2026 21:05:00"
+            },
+            {
+                "type": "Withdrawal",
+                "amount": 10000.0,
+                "date": "30-09-2026 21:05:21"
             }
         ]
     }
